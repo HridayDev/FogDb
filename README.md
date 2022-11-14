@@ -12,7 +12,7 @@ How to make a doc, here `docName` is the name of the doc you want to make:
 DocFile doc = new DocFile(docName);
 ```
 
-How to delete a doc;
+How to delete a doc:
 ```
 doc.DelFile();
 ```
