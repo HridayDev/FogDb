@@ -1,1 +1,23 @@
-FogDb
+<h1 id="fogdb">FogDb</h1>
+<h2 id="fogdb-is-a-very-simple-to-use-nosql-document-based-database-">FogDb is a very simple to use NoSql document based database.</h2>
+<h6 id="fogdb-furthur-referred-to-as-just-db-is-a-database-made-in-java-and-is-very-simple-to-use-">FogDb (furthur referred to as just db) is a database made in java and is very simple to use.</h6>
+<h4 id="i-was-tired-of-all-the-existing-databases-have-wierd-me-only-problems-like-mongodb-is-too-complicated-and-can-t-be-self-hosted-and-meanwhile-firebase-don-t-even-have-client-side-libraries-for-most-languages-including-java-">I was tired of all the existing databases have wierd me-only problems like, MongoDB is too complicated and can&#39;t be self hosted and meanwhile Firebase don&#39;t even have client side libraries for most languages including java.</h4>
+<hr>
+<hr>
+<h2 id="how-to-use">How to use</h2>
+<h2 id="-currently-the-database-runs-only-on-the-project-which-is-using-the-db-runtime-">*currently the database runs only on the project(which is using the db) runtime.</h2>
+<p>How to make a doc, here <code>docName</code> is the name of the doc you want to make:</p>
+<pre><code>DocFile <span class="hljs-meta">doc</span> = <span class="hljs-keyword">new</span> DocFile(docName);
+</code></pre><hr>
+<p>How to delete a doc:</p>
+<pre><code>doc.DelFile()<span class="hljs-comment">;</span>
+</code></pre><hr>
+<p>How to add data to a doc, here <code>key</code> and <code>val</code> refers to the data:</p>
+<pre><code>doc.<span class="hljs-keyword">addData(key, </span>val)<span class="hljs-comment">;</span>
+</code></pre><hr>
+<p>How to edit data of a doc, here <code>key</code> and <code>val</code> refers to the data:</p>
+<pre><code><span class="hljs-meta">doc</span>.editData(key, val);
+</code></pre><hr>
+<p>How to delete data of a doc, here <code>key</code> refers to the key:</p>
+<pre><code>doc.delData(key)<span class="hljs-comment">;</span>
+</code></pre><hr>
