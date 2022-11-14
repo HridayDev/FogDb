@@ -35,3 +35,13 @@ How to delete data of a doc, here `key` refers to the key:
 doc.delData(key);
 ```
 ---
+How to get data from a doc, here `key` refers to the key, returns a string:
+```
+String data = doc.getData(key);
+```
+---
+How to existance of data in a doc, here `key` refers to the key, returns a bool:
+```
+Boolean existance = doc.exists(key);
+```
+---
